@@ -63,6 +63,37 @@
     text-align: center;
     border-radius: 40px;
 }
+.text p{
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .nav img{
+        height: 80px;
+        width: 80px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    ul{
+        display: none;
+    }
+   .header{
+       width: 100%;
+   }
+   .transparent_btn span{
+       font-size: 20px;
+   }
+   .team-heading{
+       width: 100%;
+   }
+  }
 .team-heading:hover{
     background: wheat;
     transition: background-color 0.2s;
