@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -68,9 +71,7 @@
 }
 
 @media (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+  
     .nav img{
         height: 80px;
         width: 80px;
@@ -92,6 +93,11 @@
    }
    .team-heading{
        width: 100%;
+       height: auto;
+       
+   }
+   .team-heading h1{
+       font-size: 40px;
    }
   }
 .team-heading:hover{
